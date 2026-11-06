@@ -63,3 +63,7 @@ you can write in any notes, not just your own. add your notes, export, and send 
 ## heads up
 
 this is early and mostly untested, so expect bugs. homestuck.com is a vue single page app, so the extension watches the url to notice when you turn the page.
+
+## credit
+
+this extension was made by me, but the initial idea belongs to tori: https://spider.zone/
