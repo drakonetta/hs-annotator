@@ -58,7 +58,7 @@ there's no server, everything is saved in your browser. sharing is done with fil
 | `> EXPORT` | saves the current notebook as a `.json` file |
 | `> IMPORT` | merges someone else's file into your browser |
 
-you can write in any notebook, not just your own. add your notes, export, and send it back. nothing gets doubled when you import.
+you can write in any notes, not just your own. add your notes, export, and send it back. nothing gets doubled when you import.
 
 ## heads up
 
