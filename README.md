@@ -64,7 +64,7 @@ you can write in any notes, not just your own. add your notes, export, and send 
 
 this is early and mostly untested, so expect bugs. homestuck.com is a vue single page app, so the extension watches the url to notice when you turn the page.
 
-this extension will be supported for beyond canon shortly!
+this extension is now supported for www.beyondcanon.com !
 
 ## credit
 
