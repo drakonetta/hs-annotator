@@ -28,8 +28,11 @@ textarea{width:100%;height:70px;resize:vertical;margin-bottom:6px}
 
 let me = null, bks = {}, cur = null, op = false, pg = P(), dr = '', pq = '', lp = '', fl = '';
 
-function P() { return location.pathname.replace(/\/+$/, '') || '/'; }
-function L() { const m = pg.match(/^\/story\/(\d+)/); return m ? 'PAGE ' + m[1] : pg.toUpperCase(); }
+function P() {
+  const p = location.pathname.replace(/\/+$/, '') || '/', h = location.hostname.replace(/^www\./, '');
+  return h === 'homestuck.com' ? p : h + p;
+}
+function L() { const m = pg.match(/^\/story\/(\d+)/); return m ? 'PAGE ' + m[1] : pg.replace(/^beyondcanon\.com\/?/, 'BC ').toUpperCase(); }
 const E = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const H = s => {
   if (typeof s !== 'string') return null;
